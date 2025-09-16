@@ -21,7 +21,6 @@ public class promedioAlumno {
         else if (promedio <= 70) return 'D';
         else if (promedio <= 80) return 'C';
         else if (promedio <= 90) return 'B';
-        else if (promedio <= 100) return 'A';
         else return 'A';
     }
 
@@ -38,7 +37,7 @@ public class promedioAlumno {
     }
 
     public static void main(String[] args) {
-        double[] califs = {85, 90, 78, 88, 92};
+        double[] califs = {100, 95, 99, 100, 90};
         promedioAlumno alumno1 = new promedioAlumno("Cristobal Gonzalez", califs);
 
         alumno1.imprimirResultados();
